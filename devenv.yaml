@@ -1,0 +1,13 @@
+inputs:
+  nixpkgs:
+    url: github:cachix/devenv-nixpkgs/rolling
+  rust-overlay:
+    url: github:oxalica/rust-overlay
+    inputs:
+      nixpkgs:
+        follows: nixpkgs
+  crate2nix:
+    url: github:nix-community/crate2nix
+    inputs:
+      nixpkgs:
+        follows: nixpkgs

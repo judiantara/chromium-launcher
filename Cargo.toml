@@ -1,0 +1,8 @@
+[package]
+name = "chromium-app-launcher"
+version = "1.0.1"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.0.0", features = ["derive"] }
+directories = "4.0.1"
